@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="studentRegistrationForm120">
+  <grid id="27dc6" binding="registrationPanel" layout-manager="GridLayoutManager" row-count="11" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1022" height="471"/>
+    </constraints>
+    <properties>
+      <background color="-6768440"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="d2eb8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1846589"/>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Student Name"/>
+        </properties>
+      </component>
+      <component id="7f831" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1846589"/>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Student Registration Number"/>
+        </properties>
+      </component>
+      <component id="89273" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1846589"/>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Student E-mail Id"/>
+        </properties>
+      </component>
+      <component id="70bc5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1846589"/>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="Department Name"/>
+        </properties>
+      </component>
+      <component id="6a82e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=":"/>
+        </properties>
+      </component>
+      <component id="3a9b9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=":"/>
+        </properties>
+      </component>
+      <component id="6fee3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=":"/>
+        </properties>
+      </component>
+      <component id="b4a4d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=":"/>
+        </properties>
+      </component>
+      <component id="da649" class="javax.swing.JTextField" binding="textName">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="233" height="33"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1846589"/>
+          <font name="Felix Titling" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="f22c9" class="javax.swing.JTextField" binding="textRegNumber">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="233" height="33"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1846589"/>
+          <font name="Felix Titling" size="16" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5b611" class="javax.swing.JTextField" binding="textemailId">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="233" height="33"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1846589"/>
+          <font name="Courier New" size="16" style="1"/>
+        </properties>
+      </component>
+      <component id="1567b" class="javax.swing.JTextField" binding="textdepName">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="233" height="33"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1846589"/>
+          <font name="Felix Titling" size="16" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="db8a6" class="javax.swing.JTable" binding="studentDetails">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="14" style="1"/>
+          <foreground color="-9039020"/>
+        </properties>
+      </component>
+      <hspacer id="a1d55">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="bf6a3">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="233" height="14"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="4b665" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1872680"/>
+          <font name="Snap ITC" size="22" style="1"/>
+          <horizontalAlignment value="4"/>
+          <text value="STUDENT REGISTRATION FORM"/>
+        </properties>
+      </component>
+      <component id="3eaaf" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="233" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <icon value="user.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d4028" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="add-user.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8a367" class="javax.swing.JButton" binding="btnADD">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1846589"/>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="ADD"/>
+        </properties>
+      </component>
+      <component id="75fe7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="teamwork.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c63f8" class="javax.swing.JButton" binding="btnUPDATE">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1846589"/>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="UPDATE"/>
+        </properties>
+      </component>
+      <component id="775db" class="javax.swing.JButton" binding="btnDELETE">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="233" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1846589"/>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <text value="DELETE"/>
+        </properties>
+      </component>
+      <component id="7fc0c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="233" height="64"/>
+          </grid>
+        </constraints>
+        <properties>
+          <icon value="delete.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <vspacer id="966f3">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="32b67" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2761125"/>
+          <font name="Bodoni MT Black" size="22" style="1"/>
+          <foreground color="-12910573"/>
+          <text value="STUDENT DETAILS"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
